@@ -1,0 +1,114 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Cinzel", serif;
+}
+html{
+    scroll-behavior: smoth;
+}
+
+.container{
+    width: 1300px!important;
+}
+.navbar-nav .nav-link.active{
+    color:#fff;
+}
+.nav-link{
+    text-align: center;
+}
+.nav-item a{
+    padding: 5px 25px!important;
+    background-color: #ECAA54;
+    color: #fff;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    padding: 5px 25px;
+    background-color: #ECAA54;
+    color: #fff;
+}
+header{
+    position:sticky;
+    top:0;
+    left: 0;
+    background-color: #fff;
+    padding-top: 0px;
+    z-index: 999;
+}
+.carousel-item img{
+    max-height: 785px;
+}
+#sobre .row{
+    display: flex;
+    align-items: center;
+}
+.imgSobre{
+    max-width: 626px;
+    right: 0;
+}
+#areas{
+    padding: 75px 0;
+}
+.btn-primary{
+    background-color: #ECAA54;
+    border:none;
+}
+.banner{
+    text-align: center;
+    color: #fff;
+    background: url('./img/banner.png') center center no-repeat;
+    background-size: cover;
+    padding: 175px 0;
+    margin: 75px 0;
+}
+h1,h6{
+    text-align: center;
+    padding: 35px 0;
+}
+form {
+    text-align: center;
+}
+.card-header, .card-title, .card-subtitle, .card-text{
+    text-align: center;
+}
+hr {
+    width: 250px;
+    height: 3px;
+    background: linear-gradient( to right,  #999 25%, #004457 25% , #004457 75%, #999 75%);
+    margin: 25px auto 50px;
+    border: none;
+}
+.text-colored{
+    color: #ECAA54;
+}
+.icon-colored{
+    color: #ccc;
+}
+.social-links{
+    text-align: center;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+    padding-right: 15px;
+}
+.social-links a{
+    text-decoration: none;
+}
+.contato{
+    text-align: center;
+}
+.copy{
+    background-color: #ECAA54;
+    color: #fff;
+    margin-top: 35px;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        max-height: 280px;
+    }
+}

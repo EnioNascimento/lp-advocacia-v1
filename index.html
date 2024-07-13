@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO BOOTSTRAP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <header id="cabecalho inicio">
+        <div class="navbar navbar-expand-lg">
+       <div class="container">
+        <img src="./img/logo.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="nav navbar-nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#inicio">
+                        <i class="bi bi-house-fill"></i> INÍCIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#sobre">
+                        <i class="bi bi-buildings-fill"></i></i> SOBRE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#areas">
+                        <i class="bi bi-folder-fill"></i> ÁREAS DE ATUAÇÃO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">
+                        <i class="bi bi-telephone-fill"></i> CONTATO</a>
+                </li>
+            </ul>
+        </nav>
+       </div>
+    </div>
+    </header>
+
+
+
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                <img class="d-block w-100" src="./img/slide1.png" alt="" srcset="">
+                <div class="carousel-caption">
+                    <h2>ADVOCACIA NASCIMENTO</h2>
+                </div>
+            </div>
+    
+            <div class="carousel-item" data-bs-interval="2000">
+                <img class="d-block w-100" src="./img/slide2.png" alt="" srcset="">
+                <div class="carousel-caption">
+                    <h2>PROFISSIONALISMO E EXCELÊNCIA</h2>
+                </div>
+            </div>
+    
+            <div class="carousel-item" data-bs-interval="2000">
+                <img class="d-block w-100" src="./img/slide3.png" alt="" srcset="">
+                <div class="carousel-caption">
+                    <h2>ENTRE EM CONTAO HONORÁRIOS ASSECÍVEIS</h2>
+                </div>
+            </div>
+    
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+    
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+    
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="sobre">
+       <div class="row">
+        <div class="col-lg-6">
+            <h1> <i class="bi bi-buildings-fill icon-colored"></i> SOBRE</h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam molestias, asperiores animi amet dicta sint voluptatem, magni corrupti provident quaerat rem sapiente. Quo similique ex impedit numquam eaque. Illum, unde.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam molestias, asperiores animi amet dicta sint voluptatem, magni corrupti provident quaerat rem sapiente. Quo similique ex impedit numquam eaque. Illum, unde.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam molestias, asperiores animi amet dicta sint voluptatem, magni corrupti provident quaerat rem sapiente. Quo similique ex impedit numquam eaque. Illum, unde.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam molestias, asperiores animi amet dicta sint voluptatem, magni corrupti provident quaerat rem sapiente. Quo similique ex impedit numquam eaque. Illum, unde.</p>
+        </div>
+        <div class="col-lg-6">
+            <img class="imgSobre" src="./img/sobre.png" alt="">
+        </div>
+       </div>
+    </div>
+
+
+
+
+   
+    <div class="container" id="areas">
+        <h1><i class="bi bi-suitcase-lg-fill icon-colored"></i> Áreas de Atuação</h1>
+        <hr>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        PENAL
+                    </div>
+                    <img src="./img/servico1.png" alt="" srcset="">
+                    <div class="card-body ">
+                        <h4 class="card-title"> Direito Penal</h4>
+                        <h5 class="card-subtitle"> Subtítulo do card</h5>
+                        <p class="card-text">
+                         Conheça os cards do Bootstrap e usas variações
+                        </p>
+                        <a href="" class="btn btn-primary btn-lg w-100" >Ler mais</a>
+                    </div>
+                </div>      
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                    ADMINISTRATIVO
+                    </div>
+                    <img src="./img/servico2.png" alt="" srcset="">
+                    <div class="card-body">
+                        <h4 class="card-title">Direito Administrativo</h4>
+                        <h5 class="card-subtitle"> Subtítulo do card</h5>
+                        <p class="card-text">
+                         Conheça os cards do Bootstrap e usas variações
+                        </p>
+                        <a href="" class="btn btn-primary btn-lg w-100">Ler mais</a>
+                    </div>
+                </div>      
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        CIVIL
+                    </div>
+                    <img src="./img/servico3.png" alt="" srcset="">
+                    <div class="card-body">
+                        <h4 class="card-title">Direito Civil</h4>
+                        <h5 class="card-subtitle"> Subtítulo do card</h5>
+                        <p class="card-text">
+                         Conheça os cards do Bootstrap e usas variações
+                        </p>
+                        <a href="" class="btn btn-primary btn-lg w-100">Ler mais</a>
+                    </div>
+                </div>      
+            </div>            
+          
+
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+        <div class="banner">
+            <h2>RESOLVEMOS SEUS PROBLEMAS JURÍDICOS</h2>
+        </div>
+    </div>
+    </section>
+    
+
+<div class="container" id="contato">
+    <div class="row">
+        <div class="col-lg-6">
+    <h1> <i class="bi bi-envelope-fill icon-colored"></i> FORMULÁRIO DE CONTATO</h1>
+    <hr>
+    <form action="">
+       
+        <label for="" class="form-label"><b>Nome:</b></label>
+        <input type="text" name="" id="" class="form-control" placeholder="Digite seu nome..">
+   
+        <label for="" class="form-label"><b>Email:</b></label>
+        <input type="email" name="" id="" class="form-control" placeholder="Digite seu email..">
+
+        <label for="" class="form-label"><b>Telefone:</b></label>
+        <input type="tel" name="" id="" class="form-control" placeholder="Digite seu telefone.."><br><br>
+
+        <button type="submit" class="btn btn-primary large">Enviar</button>
+    </form>
+</div>
+<div class="col-lg-6">
+    <div class="contato">
+        <h1><i class="bi bi-globe-americas icon-colored"></i> CONTATO</h1>
+        <hr>
+        <b>Endereço:</b> Em breve<br>
+        <b>Email:</b> contato@gmail.com<br>
+        <b>Tel.:</b> 55 61 0000-0000
+    </div>
+    <h1><i class="bi bi-telegram icon-colored"></i> REDES SOCIAIS</h1>
+    <hr>
+    <ul class="social-links">
+        <li class="fs-1"><a href=""><i class="bi bi-linkedin text-colored"></i></a></li>
+        <li class="fs-1"><a href=""><i class="bi bi-instagram text-colored"></i></a></li>
+        <li class="fs-1"><a href=""><i class="bi bi-whatsapp text-colored"></i></a></li>
+    </ul>
+   
+</div>
+</div>
+</div>
+
+<div class="container">
+    <div class="copy">
+        <h6>
+            <b>&copy;S7 - Todos os direitos reservados - 2024 </b>
+        </h6>
+    </div>
+</div>
+
+
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
