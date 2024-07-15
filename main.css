@@ -109,6 +109,12 @@ hr {
 
 @media (max-width: 767px){
     .carousel-item img{
-        max-height: 280px;
+        max-width: 375px;
+    }
+    .imgSobre{
+        max-width: 375px;
+    }
+    .imgServico{
+        max-width: 375px;
     }
 }
