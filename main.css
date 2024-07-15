@@ -108,13 +108,19 @@ hr {
 }
 
 @media (max-width: 767px){
+    .container{
+        max-width: 100%;
+    }
     .carousel-item img{
-        max-width: 375px;
+        max-width: 100%;
     }
     .imgSobre{
-        max-width: 375px;
+        max-width: 100%;
     }
     .imgServico{
-        max-width: 375px;
+        max-width: 100%;
+    }
+    .banner{
+        max-width: 100%;
     }
 }
