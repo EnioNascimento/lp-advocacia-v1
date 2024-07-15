@@ -115,13 +115,16 @@ hr {
         max-width: 100%;
     }
     .logo{
-       max-width: 70%;
+       max-width: 250px;
     }
     #menu{
         text-align: center;
     }
     .carousel-item img{
         max-width: 100%;
+    }
+    .carousel-caption{
+        font-size: 30px;
     }
     .imgSobre{
         max-width: 100%;
