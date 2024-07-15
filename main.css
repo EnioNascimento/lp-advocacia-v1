@@ -111,6 +111,12 @@ hr {
     .container{
         max-width: 100%;
     }
+    .logo{
+        text-align: center;
+    }
+    #menu{
+        text-align: center;
+    }
     .carousel-item img{
         max-width: 100%;
     }
