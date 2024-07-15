@@ -108,11 +108,14 @@ hr {
 }
 
 @media (max-width: 767px){
+    html{
+        overflow-x: hidden;
+    }
     .container{
         max-width: 100%;
     }
     .logo{
-        text-align: center;
+       max-width: 70%;
     }
     #menu{
         text-align: center;
